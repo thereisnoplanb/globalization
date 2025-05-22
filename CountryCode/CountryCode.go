@@ -121,6 +121,7 @@ const (
 	Kazakhstan                              Enum = "KZ"
 	Kenya                                   Enum = "KE"
 	Kiribati                                Enum = "KI"
+	Kosovo                                  Enum = "XK"
 	Kuwait                                  Enum = "KW"
 	Kyrgyzstan                              Enum = "KG"
 	Laos                                    Enum = "LA"
@@ -373,6 +374,7 @@ var names map[Enum]string = map[Enum]string{
 	Kazakhstan:                              "KZ",
 	Kenya:                                   "KE",
 	Kiribati:                                "KI",
+	Kosovo:                                  "XK",
 	Kuwait:                                  "KW",
 	Kyrgyzstan:                              "KG",
 	Laos:                                    "LA",
@@ -643,6 +645,7 @@ func GetValues() []Enum {
 		Kazakhstan,
 		Kenya,
 		Kiribati,
+		Kosovo,
 		Kuwait,
 		Kyrgyzstan,
 		Laos,
